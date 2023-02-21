@@ -1,5 +1,5 @@
 import {VscCloudDownload} from  'react-icons/vsc'
-import img from '../../assests/Ziad.jfif'
+import image from '../../assests/Ziad.jfif'
 import cv from '../../assests/CV.pdf'
 
 import './About.scss'
@@ -25,7 +25,7 @@ const About = () => {
           </div>
         </div>
          <div className="aboutImgDiv">
-          <img className='aboutImg' src={img} alt="Ziad's Image" />
+          <img className='aboutImg' src={image} alt="Ziad" />
          </div>
       </div>
     </section>

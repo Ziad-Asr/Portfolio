@@ -1,6 +1,7 @@
 import {FiGithub} from 'react-icons/fi'
 import FoodApp from '../../assests/FoodApp-image.jpg'
 import NFT from '../../assests/NFT-Image.jpg'
+import weather from '../../assests/weather.jpg'
 import Todo from '../../assests/Todo-image.jpg'
 
 import './Projects.scss'
@@ -17,25 +18,35 @@ const data = [
     tech2: 'Javascript',
     tech3: 'scss',
   },
-
   {
     id: 2,
-    image: NFT,
-    liveLink: 'https://ziad-nft-store.netlify.app',
-    github: 'https://github.com/Ziad-Asr/NFT-Store',
-    title: 'NFT Store',
-    desc: 'NFT  Store for unique images',
+    image: Todo,
+    liveLink: 'https://ziad-todos.netlify.app/',
+    github: 'https://github.com/Ziad-Asr/Todo-list',
+    title: 'Todo list',
+    desc: 'Todo list for daily tasks.',
     tech1: 'React',
     tech2: 'Javascript',
     tech3: 'scss',
   },
   {
     id: 3,
-    image: Todo,
-    liveLink: 'https://ziad-todos.netlify.app/',
-    github: 'https://github.com/Ziad-Asr/Todo-list',
-    title: 'Todo list',
-    desc: 'Todo list for daily tasks.',
+    image: weather,
+    liveLink: 'https://ziad-weather-app.netlify.app/',
+    github: 'https://github.com/Ziad-Asr/Weather-App',
+    title: 'Weather App',
+    desc: 'Weather app for all countries.',
+    tech1: 'React',
+    tech2: 'Javascript',
+    tech3: 'scss',
+  },
+  {
+    id: 4,
+    image: NFT,
+    liveLink: 'https://ziad-nft-store.netlify.app',
+    github: 'https://github.com/Ziad-Asr/NFT-Store',
+    title: 'NFT Store',
+    desc: 'NFT  Store for unique images',
     tech1: 'React',
     tech2: 'Javascript',
     tech3: 'scss',
@@ -59,12 +70,12 @@ const Project = () => {
                 <div className="youtubeIcon">
                 </div>
                 <div className="githubIcon">
-                <a href={github} target="_blank"><FiGithub className="icon"/></a>
+                <a href={github} rel="noreferrer noopener" target="_blank"><FiGithub className="icon"/></a>
                 </div>
                 </div>
               
              <div className="imgDiv">
-              <a href={liveLink} target="_blank">
+              <a href={liveLink} rel="noreferrer noopener" target="_blank">
               <img src={image} alt={title} /> 
               </a>
              </div>

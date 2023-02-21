@@ -10,8 +10,8 @@ const Home = () => {
     <section id='home' className='home section'>
       <div className="leftIcons">
         <div className="socials grid">
-            <a href="https://www.linkedin.com/in/ziad-elsayed-0ziad0" target="_blank"><AiFillLinkedin className="icon" /></a>
-            <a href="https://github.com/Ziad-Asr" target="_blank"><AiFillGithub className="icon" /></a>
+            <a href="https://www.linkedin.com/in/ziad-elsayed-0ziad0" rel="noreferrer noopener"  target="_blank"><AiFillLinkedin className="icon" /></a>
+            <a href="https://github.com/Ziad-Asr" rel="noreferrer noopener" target="_blank"><AiFillGithub className="icon" /></a>
            <div className="line"></div>
         </div>
       </div>
@@ -45,7 +45,7 @@ const Home = () => {
       <div className="rightEmail">
         <div>
           <div className='emailAddress'>
-            <a href="https://mailto:ZiadElsayedAsr@gmail.com" target="_blank">ZiadElsayedAsr@gmail.com</a>
+            <a href="https://mailto:ZiadElsayedAsr@gmail.com" rel="noreferrer noopener" target="_blank">ZiadElsayedAsr@gmail.com</a>
           </div>
            <div className="line"></div>
         </div>
