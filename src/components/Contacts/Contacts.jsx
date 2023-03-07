@@ -6,18 +6,24 @@ import './Contacts.scss'
 
 const Contact = () => {
     const form = useRef();
+
     const sendEmail = (e) => {
       e.preventDefault();
   
-      emailjs.sendForm('service_9fgxci6', 'template_owdpahc', form.current, 'Es-koJTOLJZw4Kt_W')
-        e.target.reset()
+      emailjs.sendForm('service_9fgxci6', 'template_owdpahc', form.current, 'Es-koJTOLJZw4Kt_W');
+      e.target.reset();
     };
 
   return (
     <section id='contact' className='contact container section'>
-        <div class="sectionTitle">
-      <span class="titleNumber">04 . </span>  
-      <h5 class="titleText">Contact <div class="underline"><span></span></div></h5>
+      <div class="sectionTitle">
+        <span class="titleNumber">04 . </span>  
+        <h5 class="titleText">
+          Contact
+          <div class="underline">
+            <span></span>
+          </div>
+        </h5>
       </div>
 
       <div className="contactContainer">
@@ -29,7 +35,6 @@ const Contact = () => {
             <textarea name="message" placeholder='Enter your message'></textarea>
             <button className='formBtn' type='submit' name='submit'>Send Email</button>
           </form>
-          
         </div>
       </div>
 

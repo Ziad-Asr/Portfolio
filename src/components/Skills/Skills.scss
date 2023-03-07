@@ -14,6 +14,7 @@
     .skillsContainer{
         gap: 2rem 0;
         padding: 1rem 0;
+        
         .skillGroup{
           .groupTitle{
            color: var(--textColor);
@@ -32,10 +33,10 @@
                 gap: 1rem;
 
                 .singleSkill{
-                    display: grid
-                    ;
+                    display: grid;
                     align-items: center;
                     justify-content: center;
+                    
                     .iconBox{
                         position: relative;
                         height: 70px;
@@ -64,6 +65,7 @@
                         z-index: 1;
                         transition: 0.2s;
                     }
+                    
                     .iconBox::after {
                         content: "";
                         height: 0;
@@ -75,13 +77,16 @@
                         z-index: 1;
                         transition: 0.5s;
                     }
+
                     .iconBox:hover {
                         color: var(--textColor);
                         border: 2px solid var(--primaryColor);
+
                         .icon{
                             color: var(--primaryColor);
                         }
                     }
+
                     .iconBox:hover::before,
                     .iconBox:hover::after {
                         height: 100%;
@@ -122,6 +127,7 @@
             margin: auto;
             justify-content: center;
             .skillGroup{
+
                 .generalSkills{
                     grid-template-columns: repeat(3,1fr);
                 
@@ -135,10 +141,12 @@
     .skills{
         width: 70%;
         margin: auto;
+
         .skillsContainer{  
             grid-template-columns: repeat(2,1fr);   
                 gap: 2rem;
             align-items: flex-start;
+
             .skillGroup{
                 .generalSkills{
                     grid-template-columns: repeat(3,1fr);
@@ -153,8 +161,7 @@
     .skills{
         .skillsContainer{  
             grid-template-columns: repeat(3,1fr);   
-            // row-gap: 2rem;
-            // align-items: flex-start;
+
             .skillGroup{
                 .generalSkills{
                     grid-template-columns: repeat(3,1fr);
@@ -162,9 +169,6 @@
                     .singleSkill{
                         margin-right: 100px;
                         margin-top: 30px;
-                        // align-content: flex-start;
-                        // align-items: flex-start;
-                        // justify-content: flex-start;    
                     }
                 }
             }

@@ -30,6 +30,7 @@
             background: var(--primaryColor);
             width: max-content;
             padding: 10px 15px;
+
             &:hover {
               background: var(--primaryHover);
             }
@@ -40,10 +41,11 @@
               font-weight: 600;
               cursor: pointer;
               gap: .5rem;
-            }
-            a:hover {
-              color: var(--textColor);
-            }
+
+              &:hover {
+                color: var(--textColor);
+              }
+          }
         }
     }
 }
@@ -56,7 +58,6 @@
         border-radius: 50%;
         overflow: hidden;
         display: grid;
-    
         border: 2px dashed var(--primaryColor);
     
         .aboutImg {
@@ -71,21 +72,22 @@
         content: "Hover Me";
         font-size: 1.6rem;
         color: var(--BgColor);
-        text-align: center;
+        font-family: "Inconsolata", monospace;
         display: flex;
         align-items: center;
         justify-content: center;
-        font-family: "Inconsolata", monospace;
-        justify-self: center;
-        align-self: center;
+
         background: var(--primaryColor);
-        mix-blend-mode: screen;
         position: absolute;
         height: 100%;
         width: 100%;
         border-radius: 50%;
         overflow: hidden;
         transition: all 0.3s;
+
+        mix-blend-mode: screen;
+        justify-self: center;
+        align-self: center;
       }
     
       .aboutImgDiv:hover.aboutImgDiv::before {

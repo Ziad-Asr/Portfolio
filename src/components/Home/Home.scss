@@ -1,4 +1,4 @@
-e:root {
+:root {
     --primaryColor: #00eaff;
     --primaryHover: hsl(185, 92%, 41%);
     --secondaryColor: rgb(150, 162, 188);
@@ -11,8 +11,9 @@ e:root {
 }
 
 .home{
-   .homeContent{
+  .homeContent{
     padding: 4rem 1.5rem;
+
     .introText{
       font-size: 1.3rem;
       color: var(--primaryColor);
@@ -108,9 +109,6 @@ e:root {
    }
 }
 
-
-
-// MEDIA QUERIES =======================>
 @media screen and (min-width:480px){
   .home{
     .homeContent{
@@ -232,6 +230,7 @@ e:root {
     .rightEmail{
       right: 0%;
       bottom: 0;
+      
        .emailAddress{
         transform: rotate(90deg) translate(-90px, 0px);
 
@@ -250,6 +249,7 @@ e:root {
   .home{
     .homeContent{
      padding: 6rem;
+
      .introText{
        font-size: 1,5rem; 
      }

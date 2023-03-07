@@ -18,20 +18,28 @@ const Navbar = () => {
   }
 
   const [activeHeader, setActiveHeader] = useState('header')
+
   const addBg = ()=>{
-    if(window.scrollY >= 10){
+    if (window.scrollY >= 10) {
       setActiveHeader('header activeHeader')
-    }else{
+    } else{
       setActiveHeader('header')
     }
   }
+
   window.addEventListener('scroll', addBg)
 
   return (
      <header className={activeHeader}>
+
         <div className="logoDiv">
-          <h1 className="logo"><a href="#home">Ziad</a></h1>
+          <h1 className="logo">
+            <a href="#home">
+              Ziad
+            </a>
+          </h1>
         </div>
+
         <div className={active}>
           <ul onClick={removeNavbar}  className="navLists">
             <li className="navItem">
@@ -55,6 +63,7 @@ const Navbar = () => {
               <AiFillCloseCircle className='icon'/>  
           </div>
         </div>
+
         <div onClick={showNavbar} className="toggleNavbar">
           <TbGridDots className="icon"/>
         </div>

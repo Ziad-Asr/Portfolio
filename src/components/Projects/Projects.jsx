@@ -57,39 +57,41 @@ const Project = () => {
   return (
     <section id='projects' className='projects container section'>
       <div class="sectionTitle">
-      <span class="titleNumber">03 . </span>  
-      <h5 class="titleText">Projects <div class="underline"><span></span></div></h5>
+        <span class="titleNumber">03 . </span>  
+        <h5 class="titleText">Projects <div class="underline"><span></span></div></h5>
       </div>
 
       <div className="projectContainer grid"> 
           { 
-          data.map(({id, github, image, liveLink, desc, demo, title, tech1, tech2, tech3, tech4}) =>{
+          data.map(({id, github, image, liveLink, desc, title, tech1, tech2, tech3}) =>{
             return (
               <div key={id} className="singleProject">
                 <div className="externalLinks flex">
-                <div className="youtubeIcon">
+                  <div className="githubIcon">
+                  <a href={github} rel="noreferrer noopener" target="_blank"><FiGithub className="icon"/></a>
                 </div>
-                <div className="githubIcon">
-                <a href={github} rel="noreferrer noopener" target="_blank"><FiGithub className="icon"/></a>
-                </div>
-                </div>
+              </div>
               
              <div className="imgDiv">
               <a href={liveLink} rel="noreferrer noopener" target="_blank">
               <img src={image} alt={title} /> 
               </a>
              </div>
+
              <div className="projectTitle">
               <h3>{title}</h3>
              </div>
+
              <div className="desc">
               {desc}
              </div>
+
              <div className="technologies flex">
                 <small> {tech1} </small>
                 <small> {tech2} </small>
                 <small> {tech3} </small>                
              </div>
+             
              </div>
             )
 

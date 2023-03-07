@@ -11,12 +11,13 @@
 .technologies{
     gap: .5rem;
     justify-content: flex-end;
+
     small{
-        color: var(--secondaryColor)
-        ;
+        color: var(--secondaryColor);
         font-weight: 600;
     }
 }
+
 :root {
     --primaryColor: #00eaff;
     --primaryHover: hsl(185, 92%, 41%);
@@ -34,8 +35,10 @@
         width: 100%;
         justify-content: center;
         align-items: flex-start;
+
         .socialContacts{
             justify-content: center;
+
             h3{
             color: var(--secondaryColor);
             padding: 1rem 0;
@@ -56,24 +59,30 @@
                 .instaIcon{
                     color: var(--primaryColor);
                 }
+                
                 h4{
                     color: var(--textColor);
                     font-size: 18px;
                 }
+
                 .userName{
                     color: var(--secondaryColor);
                     font-weight: 600;
                 }
+
                 a{  justify-content: center;
                     gap: 5px;
                     color: var(--primaryHover);
                     font-weight: 600;
                     cursor: pointer;
+
                     .icon{
                         font-size: 20px;
                     }
+
                     &:hover{
                         color: var(--primaryColor);
+
                         .icon{
                             transform: translateX(10px);
                         }
@@ -156,6 +165,7 @@
         .contactContainer{
             grid-template-columns: repeat(2,1fr);
             align-items: flex-start !important;
+
             .cards{
                 justify-content: center;
                 grid-template-columns: repeat(2,1fr);

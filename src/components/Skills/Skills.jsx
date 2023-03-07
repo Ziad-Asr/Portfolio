@@ -14,7 +14,12 @@ const Skills = () => {
     <section id='skills' className='skills container section'>
        <div class="sectionTitle">
       <span class="titleNumber">02 . </span>  
-      <h5 class="titleText">Skills <div class="underline"><span></span></div></h5>
+      <h5 class="titleText">
+        Skills 
+        <div class="underline">
+          <span></span>
+        </div>
+      </h5>
       </div>
 
       <div className="skillsContainer grid">

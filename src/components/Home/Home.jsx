@@ -8,6 +8,7 @@ import './Home.scss'
 const Home = () => {
   return (
     <section id='home' className='home section'>
+      
       <div className="leftIcons">
         <div className="socials grid">
             <a href="https://www.linkedin.com/in/ziad-elsayed-0ziad0" rel="noreferrer noopener"  target="_blank"><AiFillLinkedin className="icon" /></a>
@@ -15,6 +16,7 @@ const Home = () => {
            <div className="line"></div>
         </div>
       </div>
+
       <div className="container homeContent">
         <span className="introText">
           Hi my name is,

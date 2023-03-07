@@ -14,7 +14,7 @@
     .projectContainer, .projectContainer2{
         margin-top: 1rem;
         justify-content: space-between; 
-        grid-template-columns: repeat(1,1fr);// at a certai width we shall have repeat of 3,1fr 
+        grid-template-columns: repeat(1,1fr);
         .singleProject{
             display: grid;
             gap: .5rem;
@@ -28,6 +28,7 @@
                 .githubIcon, .youtubeIcon{
                     a {
                         color: var(--primaryColor);
+                        
                         &:hover{
                             color: var(--primaryHover);
                         }
@@ -36,17 +37,17 @@
             }
 
             &:hover{
-                transform:translateY(-7px);
+                transform: translateY(-7px);
                 border-bottom: 2px solid var(--primaryColor);
             }
 
             .imgDiv{
                 height: 150px;
-                width: auto
-                ;
+                width: auto;
                 border-radius: 5px;
                 overflow: hidden;
                 cursor: pointer;
+
                 img{
                     height: 100%;
                     width: 100%;
@@ -69,9 +70,9 @@
             .technologies{
                 gap: .5rem;
                 justify-content: flex-end;
+
                 small{
-                    color: var(--secondaryColor)
-                    ;
+                    color: var(--secondaryColor);
                     font-weight: 600;
                 }
             }
@@ -82,22 +83,19 @@
         display: none;
     }
 
-
     .showMoreBtn{
         display: flex;
         align-items: center;
         justify-content: center;
-         margin: 2rem auto;
+        margin: 2rem auto;
     }
 }
-
 
 .projectContainer2_Grid{
     display: grid;
     align-items: center;
     gap: 1rem;
 }
-
 
 @media screen and (min-width: 600px){
     .projects{
@@ -116,7 +114,6 @@
         }
     }    
 }
-
 
 @media screen and (min-width: 1150px){
     .projects{
@@ -138,6 +135,7 @@
         }
     }    
 }
+
 @media screen and (min-width: 1240px){
     .projects{
         padding-right: 2rem;
