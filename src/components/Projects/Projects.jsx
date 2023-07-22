@@ -52,17 +52,17 @@ const data = [
     tech2: 'Javascript',
     tech3: 'scss',
   },
-  {
-    id: 3,
-    image: weather,
-    liveLink: 'https://ziad-weather-app.netlify.app/',
-    github: 'https://github.com/Ziad-Asr/Weather-App',
-    title: 'Weather App',
-    desc: 'Weather app for all countries.',
-    tech1: 'React',
-    tech2: 'Javascript',
-    tech3: 'scss',
-  },
+  // {
+  //   id: 3,
+  //   image: weather,
+  //   liveLink: 'https://ziad-weather-app.netlify.app/',
+  //   github: 'https://github.com/Ziad-Asr/Weather-App',
+  //   title: 'Weather App',
+  //   desc: 'Weather app for all countries.',
+  //   tech1: 'React',
+  //   tech2: 'Javascript',
+  //   tech3: 'scss',
+  // },
 ]
 
 const Project = () => {
