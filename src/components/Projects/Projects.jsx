@@ -2,8 +2,6 @@ import { FiGithub } from "react-icons/fi";
 import FoodApp from "../../assests/FoodApp-image.jpg";
 import car from "../../assests/Car-Rental.jfif";
 import NFT from "../../assests/NFT-Image.jpg";
-import weather from "../../assests/weather.jpg";
-import Todo from "../../assests/Todo-image.jpg";
 
 import "./Projects.scss";
 
