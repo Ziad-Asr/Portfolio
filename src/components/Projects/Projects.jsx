@@ -52,6 +52,7 @@ const data = [
     tech2: 'Javascript',
     tech3: 'scss',
   },
+<<<<<<< HEAD
   {
     id: 3,
     image: weather,
@@ -63,6 +64,19 @@ const data = [
     tech2: 'Javascript',
     tech3: 'scss',
   },
+=======
+  // {
+  //   id: 3,
+  //   image: weather,
+  //   liveLink: 'https://ziad-weather-app.netlify.app/',
+  //   github: 'https://github.com/Ziad-Asr/Weather-App',
+  //   title: 'Weather App',
+  //   desc: 'Weather app for all countries.',
+  //   tech1: 'React',
+  //   tech2: 'Javascript',
+  //   tech3: 'scss',
+  // },
+>>>>>>> 4dea1e90639924999c3b830c59b2133a52b89618
 ]
 
 const Project = () => {
