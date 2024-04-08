@@ -20,10 +20,11 @@ const About = () => {
       <div className="sectionContent grid">
         <div className="textSection">
           <h4>
-            I am a Frontend react deveoper with experience near 1 year.
+            I am a FullStack MERN deveoper with experience of 1 year.
             <br />
-            Have experience with HTML5, CSS3, Bootstrap, Sass, Javascript, React
-            and Redux.
+            Have experience with HTML5, CSS3, Bootstrap, Sass, Javascript,
+            React, Redux, MaterialUI, Node.js, Express, MongoDB, Mongoose and
+            Seqelize.
           </h4>
 
           <div className="aboutBtn">

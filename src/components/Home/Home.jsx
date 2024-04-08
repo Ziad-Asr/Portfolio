@@ -32,7 +32,7 @@ const Home = () => {
         <span className="introText">Hi my name is,</span>
         <h1 className="title">Ziad Elsayed</h1>
         <span className="subTitle">
-          I develope scalable web based applications and software.
+          I am a FullStack developer with 1 year of working experience.
         </span>
         <p className="homeParagraph">
           I code within required coding standards and styles to serve the exact

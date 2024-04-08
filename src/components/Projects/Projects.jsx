@@ -1,13 +1,24 @@
 import { FiGithub } from "react-icons/fi";
 import FoodApp from "../../assests/FoodApp-image.jpg";
 import car from "../../assests/Car-Rental.jfif";
-import NFT from "../../assests/NFT-Image.jpg";
+import ERP from "../../assests/ERP_Image.jpg";
 
 import "./Projects.scss";
 
 const data = [
   {
     id: 1,
+    image: ERP,
+    liveLink: "https://react-erp-admin-panel.netlify.app",
+    github: "https://github.com/Ziad-Asr/MERN_Admin_Panell",
+    title: "ERP System",
+    desc: "ERP System for managing customers",
+    tech1: "React",
+    tech2: "Nodejs",
+    tech3: "Javascript",
+  },
+  {
+    id: 2,
     image: FoodApp,
     liveLink: "https://ziad-food-app.netlify.app",
     github: "https://github.com/Ziad-Asr/Food-App",
@@ -18,7 +29,7 @@ const data = [
     tech3: "scss",
   },
   {
-    id: 2,
+    id: 3,
     image: car,
     liveLink: "https://ziad-car-rental.netlify.app",
     github: "https://github.com/Ziad-Asr/Car-rental-App",
@@ -27,17 +38,6 @@ const data = [
     tech1: "React",
     tech2: "Javascript",
     tech3: "css",
-  },
-  {
-    id: 3,
-    image: NFT,
-    liveLink: "https://ziad-nft-store.netlify.app",
-    github: "https://github.com/Ziad-Asr/NFT-Store",
-    title: "NFT Store",
-    desc: "NFT  Store for unique images",
-    tech1: "React",
-    tech2: "Javascript",
-    tech3: "scss",
   },
 ];
 
